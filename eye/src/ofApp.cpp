@@ -64,6 +64,7 @@ void ofApp::keyPressed(int key){
 	switch( key ){
 		case 'g': bDrawGui = !bDrawGui;	break;
         case 'm': monochrome.active = ! monochrome.active; break;
+        case 's': gui.saveToFile("settings.xml"); break;
 	}
 }
 
