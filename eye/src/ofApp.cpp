@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofSetWindowTitle("the eye - webcam " +ofToString(id) );
+    ofSetWindowTitle("eye - webcam " +ofToString(id) );
     ofSetWindowShape( width, height );    
     
     fbo.allocate( width, height );
