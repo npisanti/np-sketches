@@ -19,7 +19,9 @@ class ofApp : public ofBaseApp{
         bool bDrawGui;
         ofxPanel gui;
         
+        ofx::dotfrag::Mirror mirror;
         ofx::dotfrag::Monochrome monochrome;
+        ofx::dotfrag::ThreeTones tones;
         
         int width;
         int height;

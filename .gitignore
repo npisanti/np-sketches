@@ -1,5 +1,9 @@
 
+the_eye/bin/data/settings.xml
+
+
 # Some general ignore patterns
+
 
 *.qbs
 
