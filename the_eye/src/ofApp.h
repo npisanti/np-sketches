@@ -22,6 +22,7 @@ class ofApp : public ofBaseApp{
         ofx::dotfrag::Mirror mirror;
         ofx::dotfrag::Monochrome monochrome;
         ofx::dotfrag::ThreeTones tones;
+        ofx::dotfrag::HSB hsb;
         
         int width;
         int height;
