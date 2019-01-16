@@ -65,6 +65,10 @@ void ofApp::keyPressed(int key){
 		case 'g': bDrawGui = !bDrawGui;	break;
         case 'm': monochrome.active = ! monochrome.active; break;
         case 's': gui.saveToFile("settings.xml"); break;
+        case 'h': 
+            mirror.horizontal = true;
+            mirror.active = ! mirror.active;
+        break;
 	}
 }
 
