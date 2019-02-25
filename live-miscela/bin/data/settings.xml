@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<miscela>
+	<master_fader>1</master_fader>
+	<speed_control>1</speed_control>
+	<palette_table>
+		<table_cursor>0</table_cursor>
+		<palette_0>
+			<color_0>88, 108, 117, 255</color_0>
+			<color_1>255, 255, 255, 255</color_1>
+		</palette_0>
+		<palette_1>
+			<color_0>149, 11, 11, 255</color_0>
+			<color_1>255, 255, 255, 255</color_1>
+		</palette_1>
+	</palette_table>
+	<channel_0>
+		<sketch_control>0.5</sketch_control>
+		<sketch_mod>0</sketch_mod>
+		<overlay_control>0.5</overlay_control>
+		<overlay_mod>0</overlay_mod>
+	</channel_0>
+	<channel_1>
+		<sketch_control>0.5</sketch_control>
+		<sketch_mod>0</sketch_mod>
+		<overlay_control>0.5</overlay_control>
+		<overlay_mod>0</overlay_mod>
+	</channel_1>
+	<effects>
+		<active>0</active>
+		<index>1</index>
+		<control_A>0</control_A>
+		<mod_A>0</mod_A>
+		<control_B>0</control_B>
+		<mod_B>0</mod_B>
+	</effects>
+	<controls>
+		<mix>0</mix>
+		<invert_palette>0</invert_palette>
+		<draw_border>0</draw_border>
+		<use_cam_texture>0</use_cam_texture>
+		<channel_off_x>0</channel_off_x>
+		<channel_off_y>0</channel_off_y>
+		<index_0>0</index_0>
+		<index_1>2</index_1>
+	</controls>
+	<audio_mod>
+		<audio_in>0</audio_in>
+		<low_threshold>0</low_threshold>
+		<high_threshold>1</high_threshold>
+		<mod_level>0</mod_level>
+	</audio_mod>
+	<analyzer>
+		<audio_in>
+			<band_input_gain>0</band_input_gain>
+			<band_low>43</band_low>
+			<band_lo_hz>97.9989</band_lo_hz>
+			<band_hi>100</band_hi>
+			<band_hi_hz>2637.02</band_hi_hz>
+			<env_attack_ms>10</env_attack_ms>
+			<env_release_ms>200</env_release_ms>
+		</audio_in>
+	</analyzer>
+</miscela>
